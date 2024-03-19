@@ -461,6 +461,7 @@ sup {
 .international-committee {
   background: #fff;
 }
+
 .foreign-committee .box-container, .international-committee .box-container {
   width: 85%;
   margin: 0 auto;
@@ -828,6 +829,51 @@ header .fa-times {
   .container {
     padding-left: 9rem;
   }
+}
+@media (min-width: 425px) {
+  .left-logo{
+    position: absolute;
+    top: 50px;
+    transform: translateY(-10%);
+    width:110px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    }
+    .right-logo {
+      position: absolute;
+      top: 50px;
+      transform: translateY(-10%);
+      padding-left: 20px;
+      padding-bottom: 15px;
+      width: 160px;
+    }
+  
+    .left-logo {
+    left: 20px;
+    }
+  
+    .right-logo {
+    right: 20px;
+    }
+    .about .row .content p{
+      padding-right: 6rem;
+    }
+    .about .row .content button{
+      margin-bottom: 3rem;
+    }
+    .speakers .row .content .speaker{
+      padding-right: 4rem;
+    }
+    .speakers .row .content .speaker1{
+      padding-right: 5rem;
+    }
+    .partners .row .image img{
+      width: 70vw;
+      height: 50vh;
+    }
+    .partners .row .content{
+      padding-right: 5.5rem;
+    }
 }
 @media (min-width: 339px) {
   .left-logo{
